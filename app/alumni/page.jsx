@@ -1,22 +1,10 @@
 "use client";
 
-import { useEffect, useState } from "react";
 import Navbar from "../components/Navbar";
 import MemberCard from "../components/MemberCard";
 import classes from "./alumni.json";
 
 export default function Alumni() {
-  // const [classes, setClasses] = useState([]);
-
-  // useEffect(() => {
-  //   const fetchData = async () => {
-  //     const response = await fetch("/alumni.json");
-  //     const result = await response.json();
-  //     setClasses(result);
-  //   };
-  //   fetchData();
-  // }, []);
-
   // Sort classes in descending order
   const sortedClasses = classes.sort((a, b) => b.class - a.class);
 
@@ -30,11 +18,11 @@ export default function Alumni() {
           </p>
           {sortedClasses.map((classGroup) => (
             <div key={classGroup.class}>
-              <p className="text-[16px] sm:text-[18px] mt-[20px] font-bold text-[#797979] mb-[10px]">
+              <p className="text-[16px] sm:text-[18px] mt-[20px] font-bold text-[#797979] mb-[10px] text-center sm:text-left">
                 Class of {classGroup.class}
               </p>
               <div className="flex flex-col gap-8 p-1">
-                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+                <div className="flex flex-wrap gap-6 justify-center md:justify-start">
                   {classGroup.members.map((member, index) => (
                     <MemberCard
                       key={index}

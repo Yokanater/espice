@@ -16,7 +16,7 @@ const linkIcons = {
 
 const MemberCard = ({ img, name, tag, isAdmin, links }) => {
   return (
-    <div className="relative bg-white rounded-lg p-6 w-fit min-w-[340px] h-32 ml-[0px]">
+    <div className="relative bg-white rounded-lg p-6 w-fit min-w-[310px] h-32 ml-[0px]">
       {img && (
         <div className="absolute top-0 right-0 m-4 flex flex-col items-center">
           <Image

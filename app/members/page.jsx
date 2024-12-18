@@ -1,11 +1,11 @@
 "use client";
 
-import { useEffect, useState } from "react";
 import Navbar from "../components/Navbar";
 import MemberCard from "../components/MemberCard";
 import classes from "./members.json";
 
 export default function Members() {
+  // Sort classes in descending order
   const sortedClasses = classes.sort((a, b) => a.class - b.class);
 
   return (
@@ -17,21 +17,23 @@ export default function Members() {
             Members
           </p>
           {sortedClasses.map((classGroup) => (
-            <div key={classGroup.class} className="w-full">
-              <p className="text-[16px] sm:text-[18px] mt-[40px] font-bold text-[#797979] mb-[10px] text-center sm:text-left">
+            <div key={classGroup.class}>
+              <p className="text-[16px] sm:text-[18px] mt-[20px] font-bold text-[#797979] mb-[10px] text-center sm:text-left">
                 Class of {classGroup.class}
               </p>
-              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 sm:gap-8 justify-items-center">
-                {classGroup.members.map((member, index) => (
-                  <MemberCard
-                    key={index}
-                    img={member.img}
-                    name={member.name}
-                    tag={member.tag}
-                    isAdmin={member.isAdmin}
-                    links={member.links}
-                  />
-                ))}
+              <div className="flex flex-col gap-8 p-1">
+                <div className="flex flex-wrap gap-6 justify-center md:justify-start">
+                  {classGroup.members.map((member, index) => (
+                    <MemberCard
+                      key={index}
+                      img={member.img}
+                      name={member.name}
+                      tag={member.tag}
+                      isAdmin={member.isAdmin}
+                      links={member.links}
+                    />
+                  ))}
+                </div>
               </div>
             </div>
           ))}

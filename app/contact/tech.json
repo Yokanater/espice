@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Ms. Monica Dewan",
+    "tag": "Club Incharge",
+    "links": [
+      { "type": "linkedin", "url": "https://www.google.com/" },
+      { "type": "whatsapp", "url": "https://www.google.com/" },
+      { "type": "email", "url": "https://www.google.com/" }
+    ]
+  },
+  {
+    "name": "Ms. Vandana Sabharwal",
+    "tag": "Club Incharge",
+    "links": [
+      { "type": "linkedin", "url": "https://www.google.com/" },
+      { "type": "whatsapp", "url": "https://www.google.com/" },
+      { "type": "email", "url": "https://www.google.com/" }
+    ]
+  }
+]

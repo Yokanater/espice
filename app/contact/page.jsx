@@ -2,29 +2,16 @@
 
 import { useEffect, useState } from "react";
 import Navbar from "../components/Navbar";
-import MemberCard from "../components/MemberCard"; // Import the MemberCard component
+import MemberCard from "../components/MemberCard";
+import cm from "./cm.json";
+import tech from "./tech.json";
 
 export default function Contact() {
-  const [tech, setTech] = useState([]);
-  const [cm, setCm] = useState([]);
-
-  useEffect(() => {
-    const fetchData = async () => {
-      const response = await fetch("/tech.json");
-      const result = await response.json();
-      setTech(result);
-    };
-    const fetchData2 = async () => {
-      const response = await fetch("/cm.json");
-      const result = await response.json();
-      setCm(result);
-    };
-    fetchData();
-    fetchData2();
-  }, []);
+  //const [tech, setTech] = useState([]);
+  //const [cm, setCm] = useState([]);
 
   return (
-    <div className="bg-back bg-no-repeat bg-cover min-h-screen pb-[40px]">
+    <div className="bg-back bg-no-repeat bg-cover min-h-screen">
       <Navbar />
       <div className="flex flex-col items-center mt-[78px] px-4 sm:px-6 md:px-8 lg:px-10">
         <div className="w-full max-w-[1000px]">
@@ -41,38 +28,60 @@ export default function Contact() {
             </a>{" "}
             or contact any person from the list below.
           </p>
-          <p className="text-[16px] sm:text-[18px] mt-[20px] font-bold text-[#797979] mb-[10px]">
+          <p className="text-[16px] sm:text-[18px] mt-[20px] font-bold text-[#797979] mb-[10px] text-center sm:text-left">
             Core Members
           </p>
+
           <div className="flex flex-col gap-8 p-1">
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
-              {cm.map((member, index) => (
-                <MemberCard
-                  key={index}
-                  name={member.name}
-                  tag={member.tag}
-                  links={member.links}
-                />
-              ))}
+            <div className="flex flex-wrap gap-6 justify-center md:justify-start">
+              {cm.length > 0 ? (
+                cm.map((member, index) => (
+                  <MemberCard
+                    key={index}
+                    img={member.img}
+                    name={member.name}
+                    tag={member.tag}
+                    isAdmin={member.isAdmin}
+                    links={member.links}
+                  />
+                ))
+              ) : (
+                <p className="text-center text-gray-500">
+                  No core members available.
+                </p>
+              )}
             </div>
           </div>
-          <p className="text-[16px] sm:text-[18px] mt-[40px] font-bold text-[#797979] mb-[10px]">
+
+          <p className="text-[16px] sm:text-[18px] mt-[20px] font-bold text-[#797979] mb-[10px] text-center sm:text-left">
             Teachers
           </p>
+
           <div className="flex flex-col gap-8 p-1">
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
-              {tech.map((member, index) => (
-                <MemberCard
-                  key={index}
-                  name={member.name}
-                  tag={member.tag}
-                  links={member.links}
-                />
-              ))}
+            <div className="flex flex-wrap gap-6 justify-center md:justify-start">
+              {tech.length > 0 ? (
+                tech.map((member, index) => (
+                  <MemberCard
+                    key={index}
+                    img={member.img}
+                    name={member.name}
+                    tag={member.tag}
+                    isAdmin={member.isAdmin}
+                    links={member.links}
+                  />
+                ))
+              ) : (
+                <p className="text-center text-gray-500">
+                  No tech members available.
+                </p>
+              )}
             </div>
           </div>
         </div>
       </div>
+      <br />
+      <br />
+      <br />
     </div>
   );
 }
