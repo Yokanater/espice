@@ -24,7 +24,7 @@
       },
       {
         "name": "Shubhojeet B.",
-        "img": "/shubhojeet.png",
+        "img": "/sbt.png",
         "isAdmin": false,
         "tag": "Machine Learning",
         "links": [
@@ -200,6 +200,38 @@
           {
             "type": "email",
             "url": "https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=devkaran050408@gmail.com"
+          }
+        ]
+      },
+      {
+        "name": "Kanishka Singh",
+        "tag": "Web developer",
+        "isAdmin": false,
+        "img": "/ka.png",
+        "links": [
+          {
+            "type": "instagram",
+            "url": "https://www.instagram.com/kanishkas01/profilecard/?igsh=MXU5eWR4ZWJ0c2g0dA=="
+          },
+          {
+            "type": "github",
+            "url": "https://github.com/KanishkaSingh27"
+          },
+          {
+            "type": "email",
+            "url": "https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=kanishka.singh1127@gmail.com"
+          }
+        ]
+      },
+      {
+        "name": "Aadityn Pillai",
+        "tag": "Filmmaker & Video Editor",
+        "isAdmin": false,
+        "img": "/aad.png",
+        "links": [
+          {
+            "type": "instagram",
+            "url": "https://www.instagram.com/ditynfilms/"
           }
         ]
       }
