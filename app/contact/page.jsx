@@ -5,6 +5,7 @@ import Navbar from "../components/Navbar";
 import MemberCard from "../components/MemberCard";
 import cm from "./cm.json";
 import tech from "./tech.json";
+import AlumniCard from "../components/AlumniCard";
 
 export default function Contact() {
   //const [tech, setTech] = useState([]);
@@ -28,15 +29,15 @@ export default function Contact() {
             </a>{" "}
             or contact any person from the list below.
           </p>
-          <p className="text-[16px] sm:text-[18px] mt-[20px] font-bold text-[#797979] text-center lg:text-left ">
+          <p className="text-[16px] sm:text-[18px] mt-[20px] font-bold text-[#797979]">
             Core Members
           </p>
 
           <div className="flex flex-col gap-8 p-1">
-            <div className="flex flex-wrap gap-6 justify-center lg:justify-start">
+            <div className="flex flex-wrap gap-6">
               {cm.length > 0 ? (
                 cm.map((member, index) => (
-                  <MemberCard
+                  <AlumniCard
                     key={index}
                     img={member.img}
                     name={member.name}
@@ -53,15 +54,15 @@ export default function Contact() {
             </div>
           </div>
 
-          <p className="text-[16px] sm:text-[18px] mt-[20px] font-bold text-[#797979] mb-[0px] text-center lg:text-left">
+          <p className="text-[16px] sm:text-[18px] mt-[20px] font-bold text-[#797979] mb-[0px]">
             Teachers
           </p>
 
           <div className="flex flex-col gap-8 p-1">
-            <div className="flex flex-wrap gap-6 justify-center lg:justify-start">
+            <div className="flex flex-wrap gap-6 ">
               {tech.length > 0 ? (
                 tech.map((member, index) => (
-                  <MemberCard
+                  <AlumniCard
                     key={index}
                     img={member.img}
                     name={member.name}

@@ -31,7 +31,7 @@ export default function Navbar() {
         {/* Logo */}
         <Link href="/">
           <img
-            src="/logo3.ico"
+            src="/logo.ico"
             alt="Logo"
             className="h-[40px] relative bottom-[5px] sm:mr-[20px] sm:h-[40px] md:h-[50px]"
           />

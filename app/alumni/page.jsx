@@ -2,6 +2,7 @@
 
 import Navbar from "../components/Navbar";
 import MemberCard from "../components/MemberCard";
+import AlumniCard from "../components/AlumniCard";
 import classes from "./alumni.json";
 
 export default function Alumni() {
@@ -18,13 +19,13 @@ export default function Alumni() {
           </p>
           {sortedClasses.map((classGroup) => (
             <div key={classGroup.class}>
-              <p className="text-[16px] sm:text-[18px] mt-[20px] font-bold text-[#797979] text-center lg:text-left">
+              <p className="text-[16px] sm:text-[18px] mt-[20px] font-bold text-[#797979] ">
                 Class of {classGroup.class}
               </p>
               <div className="flex flex-col gap-8 p-1">
-                <div className="flex flex-wrap gap-6 justify-center lg:justify-start">
+                <div className="flex flex-wrap gap-6">
                   {classGroup.members.map((member, index) => (
-                    <MemberCard
+                    <AlumniCard
                       key={index}
                       img={member.img}
                       name={member.name}
