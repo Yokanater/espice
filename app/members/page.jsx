@@ -18,7 +18,7 @@ export default function Members() {
           </p>
           {sortedClasses.map((classGroup) => (
             <div key={classGroup.class}>
-              <p className="text-[16px] sm:text-[18px] mt-[20px] font-bold text-[#797979] mb-[10px] text-center lg:text-left">
+              <p className="text-[16px] sm:text-[18px] mt-[20px] font-bold text-[#797979] text-center lg:text-left">
                 Class of {classGroup.class}
               </p>
               <div className="flex flex-col gap-8 p-1">

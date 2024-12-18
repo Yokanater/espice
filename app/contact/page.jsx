@@ -28,7 +28,7 @@ export default function Contact() {
             </a>{" "}
             or contact any person from the list below.
           </p>
-          <p className="text-[16px] sm:text-[18px] mt-[20px] font-bold text-[#797979] mb-[10px] text-center lg:text-left ">
+          <p className="text-[16px] sm:text-[18px] mt-[20px] font-bold text-[#797979] text-center lg:text-left ">
             Core Members
           </p>
 
@@ -53,7 +53,7 @@ export default function Contact() {
             </div>
           </div>
 
-          <p className="text-[16px] sm:text-[18px] mt-[20px] font-bold text-[#797979] mb-[10px] text-center lg:text-left">
+          <p className="text-[16px] sm:text-[18px] mt-[20px] font-bold text-[#797979] mb-[0px] text-center lg:text-left">
             Teachers
           </p>
 

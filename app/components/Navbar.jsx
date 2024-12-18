@@ -10,52 +10,36 @@ export default function Navbar() {
   const pathname = usePathname();
   const [hoverIndicator, setHoverIndicator] = useState(false);
   const [hoverIndicatorPosition, setHoverIndicatorPosition] = useState(0);
+  const [menuOpen, setMenuOpen] = useState(false); // State to manage the mobile menu toggle
 
   const links = [
-    {
-      target: "/",
-      label: "/home",
-      active: pathname === "/",
-    },
-    {
-      target: "/members",
-      label: "/members",
-      active: pathname === "/members",
-    },
-    {
-      target: "/alumni",
-      label: "/alumni",
-      active: pathname === "/alumni",
-    },
-    {
-      target: "/log",
-      label: "/log",
-      active: pathname === "/log",
-    },
+    { target: "/", label: "/home", active: pathname === "/" },
+    { target: "/members", label: "/members", active: pathname === "/members" },
+    { target: "/alumni", label: "/alumni", active: pathname === "/alumni" },
+    { target: "/log", label: "/log", active: pathname === "/log" },
     {
       target: "/resources",
       label: "/resources",
       active: pathname === "/resources",
     },
-    {
-      target: "/contact",
-      label: "/contact",
-      active: pathname === "/contact",
-    },
+    { target: "/contact", label: "/contact", active: pathname === "/contact" },
   ];
 
   return (
-    <div className="flex justify-center items-center max-h-[100px] w-[60%] mt-0 mx-auto mb-[60px] p-[20px]">
-      <div className="flex gap-[30px] justify-center items-center">
+    <div className="flex justify-center items-center w-full mt-0 mx-auto mb-[60px] p-[40px]">
+      <div className="flex justify-between items-center w-full max-w-screen-lg">
+        {/* Logo */}
         <Link href="/">
           <img
             src="/logo3.ico"
-            alt=""
-            className="h-[40px] relative bottom-[5px] mr-[400px]"
+            alt="Logo"
+            className="h-[40px] relative bottom-[5px] sm:mr-[20px] sm:h-[40px] md:h-[50px]"
           />
         </Link>
-        {links.map((link, i) => {
-          return (
+
+        {/* Desktop Navbar Links */}
+        <div className="hidden sm:flex gap-[30px] justify-center items-center">
+          {links.map((link, i) => (
             <a
               key={i}
               href={link.target}
@@ -88,9 +72,37 @@ export default function Navbar() {
                 }`}
               />
             </a>
-          );
-        })}
+          ))}
+        </div>
       </div>
+
+      {/* Mobile view navbar */}
+      <div className="sm:hidden flex items-center justify-between w-full">
+        {/* Hamburger Icon */}
+        <button
+          className="text-[#4a4a4a] text-2xl absolute right-4"
+          onClick={() => setMenuOpen(!menuOpen)} // Toggle the menu state
+        >
+          ☰
+        </button>
+      </div>
+
+      {/* Mobile Menu - Shows when menuOpen is true */}
+      {menuOpen && (
+        <div className="sm:hidden bg-white w-full mt-4">
+          {links.map((link, i) => (
+            <a
+              key={i}
+              href={link.target}
+              className={`block py-2 px-4 font-semibold text-[18px] text-[#9e9e9e] hover:text-[#4a4a4a] ${
+                link.active ? "text-[#4a4a4a]" : ""
+              }`}
+            >
+              {link.label}
+            </a>
+          ))}
+        </div>
+      )}
     </div>
   );
 }
