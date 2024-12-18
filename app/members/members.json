@@ -41,6 +41,22 @@
             "url": "https://www.instagram.com/shubhhhx.xx/"
           }
         ]
+      },
+      {
+        "name": "Raghav Agarwal",
+        "tag": "Competitive Programmer",
+        "isAdmin": false,
+        "img": "/raghav.png",
+        "links": [
+          {
+            "url": "https://github.com/InviBull",
+            "type": "github"
+          },
+          {
+            "url": "https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=invibull29@gmail.com",
+            "type": "email"
+          }
+        ]
       }
     ]
   },
