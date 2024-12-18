@@ -6,7 +6,7 @@ import classes from "./members.json";
 
 export default function Members() {
   // Sort classes in descending order
-  const sortedClasses = classes.sort((a, b) => a.class - b.class);
+  const sortedClasses = classes.sort((a, b) => b.class - a.class);
 
   return (
     <div className="bg-back bg-no-repeat bg-cover min-h-screen">
