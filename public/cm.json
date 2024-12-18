@@ -1,0 +1,65 @@
+[
+  {
+    "name": "Arnav Bansal",
+    "tag": "Class of 2025, Developer",
+    "links": [
+      { "type": "github", "url": "https://www.google.com/" },
+      { "type": "linkedin", "url": "https://www.google.com/" },
+      { "type": "twitter", "url": "https://www.google.com/" }
+    ]
+  },
+  {
+    "name": "Nishit Jha",
+    "tag": "Class of 2026, Developer",
+    "links": [
+      { "type": "github", "url": "https://www.google.com/" },
+      { "type": "linkedin", "url": "https://www.google.com/" },
+      { "type": "email", "url": "https://www.google.com/" }
+    ]
+  },
+  {
+    "name": "Kartik Garg",
+    "tag": "Class of 2030, Web Developer",
+    "links": [
+      {
+        "type": "linkedin",
+        "url": "www.linkedin.com/in/kartik-garg-b02938305"
+      },
+      {
+        "type": "whatsapp",
+        "url": "https://api.whatsapp.com/send?phone=9870177009"
+      },
+      {
+        "type": "email",
+        "url": "https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=garg2012030@gmail.com"
+      }
+    ]
+  },
+  {
+    "name": "Rushil Rawat",
+    "tag": "Class of 2024, Quizzer",
+    "links": [
+      { "type": "github", "url": "https://www.google.com/" },
+      { "type": "linkedin", "url": "https://www.google.com/" },
+      { "type": "twitter", "url": "https://www.google.com/" }
+    ]
+  },
+  {
+    "name": "Manya Goenka",
+    "tag": "Class of 2027, Designer",
+    "links": [
+      { "type": "github", "url": "https://www.google.com/" },
+      { "type": "instagram", "url": "https://www.google.com/" },
+      { "type": "website", "url": "https://www.google.com/" }
+    ]
+  },
+  {
+    "name": "Akshat Chauan",
+    "tag": "Class of 2024, Robotics",
+    "links": [
+      { "type": "github", "url": "https://www.google.com/" },
+      { "type": "linkedin", "url": "https://www.google.com/" },
+      { "type": "email", "url": "https://www.google.com/" }
+    ]
+  }
+]

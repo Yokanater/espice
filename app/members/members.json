@@ -1,0 +1,185 @@
+[
+  {
+    "class": 2025,
+    "members": [
+      {
+        "name": "Arnav Bansal",
+        "tag": "Developer",
+        "links": [
+          {
+            "type": "github",
+            "url": "https://www.google.com/"
+          },
+          {
+            "type": "email",
+            "url": "https://www.google.com/"
+          },
+          {
+            "type": "twitter",
+            "url": "https://www.google.com/"
+          }
+        ],
+        "isAdmin": true,
+        "img": "/arnav.png"
+      },
+      {
+        "name": "Arnav Bansal",
+        "tag": "Developer",
+        "links": [
+          {
+            "type": "github",
+            "url": "https://www.google.com/"
+          },
+          {
+            "type": "email",
+            "url": "https://www.google.com/"
+          },
+          {
+            "type": "twitter",
+            "url": "https://www.google.com/"
+          }
+        ],
+        "isAdmin": false,
+        "img": "/arnav.png"
+      },
+      {
+        "name": "Arnav Bansal",
+        "tag": "Developer",
+        "links": [
+          {
+            "type": "github",
+            "url": "https://www.google.com/"
+          },
+          {
+            "type": "email",
+            "url": "https://www.google.com/"
+          },
+          {
+            "type": "twitter",
+            "url": "https://www.google.com/"
+          }
+        ],
+        "isAdmin": true,
+        "img": "/arnav.png"
+      },
+      {
+        "name": "Arnav Bansal",
+        "tag": "Developer",
+        "links": [
+          {
+            "type": "github",
+            "url": "https://www.google.com/"
+          },
+          {
+            "type": "email",
+            "url": "https://www.google.com/"
+          },
+          {
+            "type": "twitter",
+            "url": "https://www.google.com/"
+          }
+        ],
+        "isAdmin": true,
+        "img": "/arnav.png"
+      }
+    ]
+  },
+  {
+    "class": 2026,
+    "members": [
+      {
+        "name": "Nishit Jha",
+        "tag": "Web Developer",
+        "links": [
+          {
+            "type": "github",
+            "url": "https://www.google.com/"
+          },
+          {
+            "type": "email",
+            "url": "https://www.google.com/"
+          },
+          {
+            "type": "twitter",
+            "url": "https://www.google.com/"
+          }
+        ],
+        "isAdmin": false,
+        "img": "/nishit.png"
+      },
+      {
+        "name": "Nishit Jha",
+        "tag": "Web Developer",
+        "links": [
+          {
+            "type": "github",
+            "url": "https://www.google.com/"
+          },
+          {
+            "type": "email",
+            "url": "https://www.google.com/"
+          },
+          {
+            "type": "twitter",
+            "url": "https://www.google.com/"
+          }
+        ],
+        "isAdmin": false,
+        "img": "/nishit.png"
+      }
+    ]
+  },
+  {
+    "class": 2030,
+    "members": [
+      {
+        "name": "Kartik Garg",
+        "tag": "Web Developer",
+        "links": [
+          {
+            "type": "github",
+            "url": "https://www.google.com/"
+          },
+          {
+            "type": "email",
+            "url": "https://www.google.com/"
+          }
+        ],
+        "isAdmin": false,
+        "img": "/kartik.png"
+      },
+      {
+        "name": "Kartik Garg",
+        "tag": "Web Developer",
+        "links": [
+          {
+            "type": "github",
+            "url": "https://www.google.com/"
+          },
+          {
+            "type": "email",
+            "url": "https://www.google.com/"
+          }
+        ],
+        "isAdmin": false,
+        "img": "/kartik.png"
+      },
+      {
+        "name": "Kartik Garg",
+        "tag": "Web Developer",
+        "links": [
+          {
+            "type": "website",
+            "url": "https://www.google.com/"
+          },
+          {
+            "type": "email",
+            "url": "https://www.google.com/"
+          }
+        ],
+        "isAdmin": false,
+        "img": "/kartik.png"
+      }
+    ]
+  }
+]

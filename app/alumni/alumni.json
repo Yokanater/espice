@@ -1,0 +1,82 @@
+[
+  {
+    "class": 2024,
+    "members": [
+      {
+        "name": "Chirag Bhansali",
+        "tag": "Web Developer",
+        "links": [
+          {
+            "type": "website",
+            "url": "https://www.google.com/"
+          },
+          {
+            "type": "email",
+            "url": "https://www.google.com/"
+          }
+        ]
+      },
+      {
+        "name": "Raghav Sethi",
+        "tag": "Hardware, App Developer",
+        "links": [
+          {
+            "type": "website",
+            "url": "https://www.google.com/"
+          },
+          {
+            "type": "email",
+            "url": "https://www.google.com/"
+          }
+        ]
+      },
+      {
+        "name": "Aditya Bhatt",
+        "tag": "Hardware, App Developer",
+        "links": [
+          {
+            "type": "website",
+            "url": "https://www.google.com/"
+          },
+          {
+            "type": "email",
+            "url": "https://www.google.com/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "class": 2023,
+    "members": [
+      {
+        "name": "Rahul Tandon",
+        "tag": "Web Developer",
+        "links": [
+          {
+            "type": "website",
+            "url": "https://www.google.com/"
+          },
+          {
+            "type": "email",
+            "url": "https://www.google.com/"
+          }
+        ]
+      },
+      {
+        "name": "Ravit Gulati",
+        "tag": "Hardware, App Developer",
+        "links": [
+          {
+            "type": "website",
+            "url": "https://www.google.com/"
+          },
+          {
+            "type": "email",
+            "url": "https://www.google.com/"
+          }
+        ]
+      }
+    ]
+  }
+]
