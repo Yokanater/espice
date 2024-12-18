@@ -16,7 +16,7 @@ const linkIcons = {
 
 const MemberCard = ({ img, name, tag, isAdmin, links }) => {
   return (
-    <div className="relative bg-white rounded-lg p-6 w-fit min-w-[340px] h-32">
+    <div className="relative bg-white rounded-lg p-6 w-fit min-w-[340px] h-32 ml-[0px]">
       {img && (
         <div className="absolute top-0 right-0 m-4 flex flex-col items-center">
           <Image
@@ -27,7 +27,7 @@ const MemberCard = ({ img, name, tag, isAdmin, links }) => {
             className="rounded-lg max-w-[65px] max-h-[65px] ml-[2 0px]"
           />
           {isAdmin && (
-            <p className="mt-[15px] text-[15px] font-extrabold text-blue-500 uppercase">
+            <p className="mt-[10px] font-extrabold text-[rgba(62,133,239,0.95)] text-[18px] tracking-[0.4px] !important">
               ADMIN
             </p>
           )}
