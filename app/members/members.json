@@ -7,79 +7,19 @@
         "tag": "Developer",
         "links": [
           {
-            "type": "github",
-            "url": "https://www.google.com/"
+            "type": "linkedin",
+            "url": "https://linkedin.com/in/arnavbansal11"
           },
           {
-            "type": "email",
-            "url": "https://www.google.com/"
+            "type": "github",
+            "url": "https://github.com/bansalarnav"
           },
           {
             "type": "twitter",
-            "url": "https://www.google.com/"
-          }
-        ],
-        "isAdmin": true,
-        "img": "/arnav.png"
-      },
-      {
-        "name": "Arnav Bansal",
-        "tag": "Developer",
-        "links": [
-          {
-            "type": "github",
-            "url": "https://www.google.com/"
-          },
-          {
-            "type": "email",
-            "url": "https://www.google.com/"
-          },
-          {
-            "type": "twitter",
-            "url": "https://www.google.com/"
+            "url": "https://twitter.com/arnavbansal01"
           }
         ],
         "isAdmin": false,
-        "img": "/arnav.png"
-      },
-      {
-        "name": "Arnav Bansal",
-        "tag": "Developer",
-        "links": [
-          {
-            "type": "github",
-            "url": "https://www.google.com/"
-          },
-          {
-            "type": "email",
-            "url": "https://www.google.com/"
-          },
-          {
-            "type": "twitter",
-            "url": "https://www.google.com/"
-          }
-        ],
-        "isAdmin": true,
-        "img": "/arnav.png"
-      },
-      {
-        "name": "Arnav Bansal",
-        "tag": "Developer",
-        "links": [
-          {
-            "type": "github",
-            "url": "https://www.google.com/"
-          },
-          {
-            "type": "email",
-            "url": "https://www.google.com/"
-          },
-          {
-            "type": "twitter",
-            "url": "https://www.google.com/"
-          }
-        ],
-        "isAdmin": true,
         "img": "/arnav.png"
       }
     ]
@@ -147,6 +87,48 @@
         ],
         "isAdmin": false,
         "img": "/kartik.png"
+      }
+    ]
+  },
+  {
+    "class": 2028,
+    "members": [
+      {
+        "name": "Ruhan Kapoor",
+        "tag": "Designer",
+        "links": [
+          {
+            "type": "instagram",
+            "url": "https://www.instagram.com/legendenius?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+          },
+          {
+            "type": "youtube",
+            "url": "https://www.youtube.com/@legendenius"
+          }
+        ],
+        "isAdmin": false,
+        "img": "/ruhan.png"
+      }
+    ]
+  },
+  {
+    "class": 2027,
+    "members": [
+      {
+        "name": "Shabadneet Singh",
+        "tag": "Video Editor",
+        "links": [
+          {
+            "type": "behance",
+            "url": "https://www.behance.net/shabadd"
+          },
+          {
+            "type": "instagram",
+            "url": "https://www.instagram.com/ssb_shabad?igsh=dHBsMDZxZThxYXl5&utm_source=qr"
+          }
+        ],
+        "isAdmin": false,
+        "img": "/shabadneet.png"
       }
     ]
   }

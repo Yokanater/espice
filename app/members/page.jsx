@@ -24,7 +24,7 @@ export default function Members() {
                 Class of {classGroup.class}
               </p>
               <div className="flex flex-col gap-8 p-1">
-                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-20">
                   {classGroup.members.map((member, index) => (
                     <MemberCard
                       key={index}
