@@ -20,11 +20,11 @@
           }
         ],
         "isAdmin": true,
-        "img": "/arnav.png"
+        "img": "/arn.png"
       },
       {
         "name": "Shubhojeet B.",
-        "img": "/ruhan.png",
+        "img": "/ruha.png",
         "isAdmin": false,
         "tag": "Machine Learning",
         "links": [
@@ -83,7 +83,7 @@
           }
         ],
         "isAdmin": false,
-        "img": "/ruhan.png"
+        "img": "/ruha.png"
       }
     ]
   },
@@ -110,7 +110,7 @@
         "name": "Armaan Guha",
         "tag": "Robotics",
         "isAdmin": false,
-        "img": "/ruhan.png",
+        "img": "/ruha.png",
         "links": [
           {
             "type": "github",

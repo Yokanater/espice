@@ -9,11 +9,7 @@ export default function Navbar() {
     <nav className="flex justify-between items-center p-5 mx-4 sm:mx-8 md:mx-16 lg:mx-[200px]">
       <div className="text-xl font-bold">
         <a href="/">
-          <img
-            src="./favicon.ico"
-            alt="Logo"
-            className="h-8 w-8 sm:h-10 sm:w-10"
-          />
+          <img src="/logo.ico" alt="Logo" className="h-8 w-8 sm:h-10 sm:w-10" />
         </a>
       </div>
       <ul className="flex space-x-2 sm:space-x-4 md:space-x-6">
@@ -34,23 +30,7 @@ export default function Navbar() {
             </span>
           </a>
         </li>
-        <li>
-          <a
-            href="/resources"
-            className={`relative font-semibold text-slate-600 text-xs sm:text-sm md:text-base lg:text-lg p-1 sm:p-2`}
-          >
-            <span className="relative inline-block group">
-              <span className="relative z-10">/resources</span>
-              <span
-                className={`absolute left-1/2 transform -translate-x-1/2 bottom-0.5 w-[120%] h-3 bg-blue-200 transition-all duration-300 ${
-                  router === "/resources"
-                    ? "opacity-100"
-                    : "opacity-0 group-hover:opacity-100"
-                }`}
-              ></span>
-            </span>
-          </a>
-        </li>
+
         <li>
           <a
             href="/members"
@@ -95,6 +75,23 @@ export default function Navbar() {
               <span
                 className={`absolute left-1/2 transform -translate-x-1/2 bottom-0.5 w-[120%] h-3 bg-blue-200 transition-all duration-300 ${
                   router === "/log"
+                    ? "opacity-100"
+                    : "opacity-0 group-hover:opacity-100"
+                }`}
+              ></span>
+            </span>
+          </a>
+        </li>
+        <li>
+          <a
+            href="/resources"
+            className={`relative font-semibold text-slate-600 text-xs sm:text-sm md:text-base lg:text-lg p-1 sm:p-2`}
+          >
+            <span className="relative inline-block group">
+              <span className="relative z-10">/resources</span>
+              <span
+                className={`absolute left-1/2 transform -translate-x-1/2 bottom-0.5 w-[120%] h-3 bg-blue-200 transition-all duration-300 ${
+                  router === "/resources"
                     ? "opacity-100"
                     : "opacity-0 group-hover:opacity-100"
                 }`}
