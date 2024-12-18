@@ -137,44 +137,12 @@
         "tag": "Web Developer",
         "links": [
           {
-            "type": "github",
-            "url": "https://www.google.com/"
+            "type": "linkedin",
+            "url": "https://www.linkedin.com/in/kartik-garg-b02938305/"
           },
-          {
-            "type": "email",
-            "url": "https://www.google.com/"
-          }
-        ],
-        "isAdmin": false,
-        "img": "/kartik.png"
-      },
-      {
-        "name": "Kartik Garg",
-        "tag": "Web Developer",
-        "links": [
-          {
-            "type": "github",
-            "url": "https://www.google.com/"
-          },
-          {
-            "type": "email",
-            "url": "https://www.google.com/"
-          }
-        ],
-        "isAdmin": false,
-        "img": "/kartik.png"
-      },
-      {
-        "name": "Kartik Garg",
-        "tag": "Web Developer",
-        "links": [
           {
             "type": "website",
-            "url": "https://www.google.com/"
-          },
-          {
-            "type": "email",
-            "url": "https://www.google.com/"
+            "url": "https://coder030.github.io/Portfolio/"
           }
         ],
         "isAdmin": false,
