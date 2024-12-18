@@ -28,12 +28,12 @@ export default function Contact() {
             </a>{" "}
             or contact any person from the list below.
           </p>
-          <p className="text-[16px] sm:text-[18px] mt-[20px] font-bold text-[#797979] mb-[10px] text-center sm:text-left">
+          <p className="text-[16px] sm:text-[18px] mt-[20px] font-bold text-[#797979] mb-[10px] text-center lg:text-left ">
             Core Members
           </p>
 
           <div className="flex flex-col gap-8 p-1">
-            <div className="flex flex-wrap gap-6 justify-center md:justify-start">
+            <div className="flex flex-wrap gap-6 justify-center lg:justify-start">
               {cm.length > 0 ? (
                 cm.map((member, index) => (
                   <MemberCard
@@ -53,12 +53,12 @@ export default function Contact() {
             </div>
           </div>
 
-          <p className="text-[16px] sm:text-[18px] mt-[20px] font-bold text-[#797979] mb-[10px] text-center sm:text-left">
+          <p className="text-[16px] sm:text-[18px] mt-[20px] font-bold text-[#797979] mb-[10px] text-center lg:text-left">
             Teachers
           </p>
 
           <div className="flex flex-col gap-8 p-1">
-            <div className="flex flex-wrap gap-6 justify-center md:justify-start">
+            <div className="flex flex-wrap gap-6 justify-center lg:justify-start">
               {tech.length > 0 ? (
                 tech.map((member, index) => (
                   <MemberCard

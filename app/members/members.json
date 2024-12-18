@@ -39,7 +39,7 @@
             "url": "https://twitter.com/arnavbansal01"
           }
         ],
-        "isAdmin": true,
+        "isAdmin": false,
         "img": "/arnav.png"
       },
       {
@@ -59,7 +59,27 @@
             "url": "https://twitter.com/arnavbansal01"
           }
         ],
-        "isAdmin": true,
+        "isAdmin": false,
+        "img": "/arnav.png"
+      },
+      {
+        "name": "Arnav Bansal",
+        "tag": "Developer",
+        "links": [
+          {
+            "type": "linkedin",
+            "url": "https://linkedin.com/in/arnavbansal11"
+          },
+          {
+            "type": "github",
+            "url": "https://github.com/bansalarnav"
+          },
+          {
+            "type": "twitter",
+            "url": "https://twitter.com/arnavbansal01"
+          }
+        ],
+        "isAdmin": false,
         "img": "/arnav.png"
       }
     ]
@@ -82,7 +102,7 @@
           }
         ],
         "isAdmin": false,
-        "img": "/kartik.png"
+        "img": "/kartik2.png"
       }
     ]
   },
