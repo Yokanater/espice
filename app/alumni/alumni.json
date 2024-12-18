@@ -78,5 +78,20 @@
         ]
       }
     ]
+  },
+  {
+    "class": 2026,
+    "members": [
+      {
+        "name": "Kushagra Verma",
+        "tag": "Competitive Programmer",
+        "links": [
+          {
+            "type": "github",
+            "url": "https://github.com/codelambb"
+          }
+        ]
+      }
+    ]
   }
 ]

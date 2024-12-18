@@ -1,6 +1,6 @@
 import Navbar from "./components/Navbar";
 import Image from "next/image";
-import big from "../app/big.png";
+import big from "../app/big3.png";
 
 export default function Home() {
   return (
