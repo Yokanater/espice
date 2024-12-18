@@ -130,7 +130,7 @@
         "name": "Manya Goenka",
         "tag": "Designer",
         "isAdmin": false,
-        "img": "/ruha.png",
+        "img": "/manya.png",
         "links": [
           {
             "url": "https://www.instagram.com/manya.g13",
@@ -175,7 +175,7 @@
         "name": "Dev Karan",
         "tag": "Movie Making, Quiz",
         "isAdmin": false,
-        "img": "/ruha.png",
+        "img": "/dev.png",
         "links": [
           {
             "type": "twitter",
