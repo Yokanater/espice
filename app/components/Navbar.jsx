@@ -67,7 +67,7 @@ export default function Navbar() {
                 className={`transform transition-all duration-400 h-[8px] relative top-[-6px] w-[calc(100%+10px)] ml-[-5px] origin-bottom ${
                   (hoverIndicator && hoverIndicatorPosition === i) ||
                   (!hoverIndicator && link.active)
-                    ? "bg-[#008AE3] opacity-[20%] top-[-10px] transform scale-y-100"
+                    ? "bg-[#008AE3] opacity-[20%] top-[-11px] transform scale-y-100"
                     : "bg-transparent transform scale-y-0"
                 }`}
               />

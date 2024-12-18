@@ -83,7 +83,7 @@
           }
         ],
         "isAdmin": false,
-        "img": "/ruha.png"
+        "img": "/ruhan.png"
       }
     ]
   },
@@ -125,6 +125,22 @@
             "url": "https://x.com/og_shrug"
           }
         ]
+      },
+      {
+        "name": "Manya Goenka",
+        "tag": "Designer",
+        "isAdmin": false,
+        "img": "/ruha.png",
+        "links": [
+          {
+            "url": "https://www.instagram.com/manya.g13",
+            "type": "instagram"
+          },
+          {
+            "url": "https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=manya.goenka@gmail.com",
+            "type": "email"
+          }
+        ]
       }
     ]
   },
@@ -142,6 +158,34 @@
           }
         ],
         "img": "/aryan.png"
+      },
+      {
+        "name": "Aanvi Malpani",
+        "tag": "Designer",
+        "isAdmin": false,
+        "img": "/ruha.png",
+        "links": [
+          {
+            "type": "email",
+            "url": "https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=aanvimalpani@gmail.com"
+          }
+        ]
+      },
+      {
+        "name": "Dev Karan",
+        "tag": "Movie Making, Quiz",
+        "isAdmin": false,
+        "img": "/ruha.png",
+        "links": [
+          {
+            "type": "twitter",
+            "url": "https://twitter.com/Thenerdalogist"
+          },
+          {
+            "type": "email",
+            "url": "https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=devkaran050408@gmail.com"
+          }
+        ]
       }
     ]
   }

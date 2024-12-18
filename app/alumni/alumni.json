@@ -43,6 +43,17 @@
             "url": "/"
           }
         ]
+      },
+      {
+        "name": "Rushil Rawat",
+        "tag": "Quizzer",
+        "links": [
+          {
+            "type": "linkedin",
+            "url": "https://www.linkedin.com/in/rushil-rawat/"
+          },
+          { "type": "github", "url": "https://github.com/RushR2005" }
+        ]
       }
     ]
   },
