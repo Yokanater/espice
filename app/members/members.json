@@ -23,64 +23,24 @@
         "img": "/arnav.png"
       },
       {
-        "name": "Arnav Bansal",
-        "tag": "Developer",
+        "name": "Shubhojeet B.",
+        "img": "/ruhan.png",
+        "isAdmin": false,
+        "tag": "Machine Learning",
         "links": [
           {
-            "type": "linkedin",
-            "url": "https://linkedin.com/in/arnavbansal11"
+            "type": "email",
+            "url": "https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=shubhojeetb123@gmail.com"
           },
-          {
-            "type": "github",
-            "url": "https://github.com/bansalarnav"
-          },
-          {
-            "type": "twitter",
-            "url": "https://twitter.com/arnavbansal01"
-          }
-        ],
-        "isAdmin": false,
-        "img": "/arnav.png"
-      },
-      {
-        "name": "Arnav Bansal",
-        "tag": "Developer",
-        "links": [
           {
             "type": "linkedin",
-            "url": "https://linkedin.com/in/arnavbansal11"
+            "url": "https://in.linkedin.com/in/shubhojeet-brahmachari"
           },
           {
-            "type": "github",
-            "url": "https://github.com/bansalarnav"
-          },
-          {
-            "type": "twitter",
-            "url": "https://twitter.com/arnavbansal01"
+            "type": "instagram",
+            "url": "https://www.instagram.com/shubhhhx.xx/"
           }
-        ],
-        "isAdmin": false,
-        "img": "/arnav.png"
-      },
-      {
-        "name": "Arnav Bansal",
-        "tag": "Developer",
-        "links": [
-          {
-            "type": "linkedin",
-            "url": "https://linkedin.com/in/arnavbansal11"
-          },
-          {
-            "type": "github",
-            "url": "https://github.com/bansalarnav"
-          },
-          {
-            "type": "twitter",
-            "url": "https://twitter.com/arnavbansal01"
-          }
-        ],
-        "isAdmin": false,
-        "img": "/arnav.png"
+        ]
       }
     ]
   },
@@ -90,7 +50,7 @@
     "members": [
       {
         "name": "Kartik Garg",
-        "tag": "Web Developer",
+        "tag": "Web Developer Head",
         "links": [
           {
             "type": "linkedin",
@@ -145,6 +105,43 @@
         ],
         "isAdmin": false,
         "img": "/shabadneet.png"
+      },
+      {
+        "name": "Armaan Guha",
+        "tag": "Robotics",
+        "isAdmin": false,
+        "img": "/ruhan.png",
+        "links": [
+          {
+            "type": "github",
+            "url": "https://github.com/ogshrug"
+          },
+          {
+            "type": "website",
+            "url": "https://rebrand.ly/r1ckr0l13r"
+          },
+          {
+            "type": "twitter",
+            "url": "https://x.com/og_shrug"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "class": 2026,
+    "members": [
+      {
+        "name": "Aryan Mittal",
+        "tag": "Gamer",
+        "isAdmin": false,
+        "links": [
+          {
+            "type": "instagram",
+            "url": "https://www.instagram.com/c_u.b.e/profilecard/?igsh=MTNwam5icnR0cW82dQ=="
+          }
+        ],
+        "img": "/aryan.png"
       }
     ]
   }

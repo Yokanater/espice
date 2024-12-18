@@ -3,18 +3,27 @@
     "name": "Arnav Bansal",
     "tag": "Class of 2025, Developer",
     "links": [
-      { "type": "github", "url": "https://www.google.com/" },
-      { "type": "linkedin", "url": "https://www.google.com/" },
-      { "type": "twitter", "url": "https://www.google.com/" }
+      {
+        "type": "linkedin",
+        "url": "https://linkedin.com/in/arnavbansal11"
+      },
+      {
+        "type": "github",
+        "url": "https://github.com/bansalarnav"
+      },
+      {
+        "type": "twitter",
+        "url": "https://twitter.com/arnavbansal01"
+      }
     ]
   },
   {
     "name": "Nishit Jha",
     "tag": "Class of 2026, Developer",
     "links": [
-      { "type": "github", "url": "https://www.google.com/" },
-      { "type": "linkedin", "url": "https://www.google.com/" },
-      { "type": "email", "url": "https://www.google.com/" }
+      { "type": "github", "url": "/" },
+      { "type": "linkedin", "url": "/" },
+      { "type": "email", "url": "/" }
     ]
   },
   {
@@ -39,27 +48,27 @@
     "name": "Rushil Rawat",
     "tag": "Class of 2024, Quizzer",
     "links": [
-      { "type": "github", "url": "https://www.google.com/" },
-      { "type": "linkedin", "url": "https://www.google.com/" },
-      { "type": "twitter", "url": "https://www.google.com/" }
+      { "type": "github", "url": "/" },
+      { "type": "linkedin", "url": "/" },
+      { "type": "twitter", "url": "/" }
     ]
   },
   {
     "name": "Manya Goenka",
     "tag": "Class of 2027, Designer",
     "links": [
-      { "type": "github", "url": "https://www.google.com/" },
-      { "type": "instagram", "url": "https://www.google.com/" },
-      { "type": "website", "url": "https://www.google.com/" }
+      { "type": "github", "url": "/" },
+      { "type": "instagram", "url": "/" },
+      { "type": "website", "url": "/" }
     ]
   },
   {
     "name": "Akshat Chauan",
     "tag": "Class of 2024, Robotics",
     "links": [
-      { "type": "github", "url": "https://www.google.com/" },
-      { "type": "linkedin", "url": "https://www.google.com/" },
-      { "type": "email", "url": "https://www.google.com/" }
+      { "type": "github", "url": "/" },
+      { "type": "linkedin", "url": "/" },
+      { "type": "email", "url": "/" }
     ]
   }
 ]
