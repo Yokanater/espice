@@ -50,12 +50,21 @@
     ]
   },
   {
-    "name": "Akshat Chauan",
-    "tag": "Class of 2024, Robotics",
+    "name": "Yash Tripathi",
+    "tag": "Class of 2026, Developer",
     "links": [
-      { "type": "github", "url": "/" },
-      { "type": "linkedin", "url": "/" },
-      { "type": "email", "url": "/" }
+      {
+        "type": "github",
+        "url": "https://github.com/yokanater"
+      },
+      {
+        "type": "instagram",
+        "url": "https://www.instagram.com/yokanaterr/"
+      },
+      {
+        "type": "linkedin",
+        "url": "https://www.linkedin.com/in/yash-tripathi-10b750226/"
+      }
     ]
   }
 ]
