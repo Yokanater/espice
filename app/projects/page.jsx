@@ -9,6 +9,7 @@ export default function Projects() {
     "Competitive Programming": "bg-blue-500",
     Robotics: "bg-yellow-500",
     Design: "bg-purple-500",
+    "Game Development": "bg-red-500",
   };
 
   const projects = [
@@ -19,6 +20,7 @@ export default function Projects() {
         "eSpice v14 prelims was an exciting showcase of programming skills, creativity, and problem-solving. The event brought together some of the brightest minds to tackle challenging problems and compete for the top spot. The contest was held to help students of DPS Noida get inducted into our tech club and get trained in various languages and problem-solving techniques.",
       tag: "Competitive Programming",
       link: "https://www.hackerrank.com/contests/espice-v14-prelims/challenges",
+      author: "eSpice Competitive Programming Team",
     },
     {
       name: "Svagram",
@@ -26,6 +28,7 @@ export default function Projects() {
       img: "/svagram.png",
       description:
         "This is 𝑆𝑣𝑎𝑔𝑟𝑎𝑚, a website aptly named `Your Own Village`. 𝑆𝑣𝑎𝑔𝑟𝑎𝑚 serves as a digital hub where users can propose initiatives, garner support through volunteering and upvoting, ultimately fostering a community-driven environment for realising impactful ideas.",
+      author: "Kartik Garg",
     },
     {
       name: "Zemnalite",
@@ -34,6 +37,7 @@ export default function Projects() {
       tag: "Design",
       img: "/zem.png",
       link: "https://www.behance.net/gallery/211817407/Zemlanite",
+      author: "Ruhan Kapoor",
     },
     {
       name: "Robowar",
@@ -41,6 +45,16 @@ export default function Projects() {
       img: "/robo.png",
       description:
         "This Robowar bot features a high-speed rotating horizontal drum powered by advanced BLDC motors for exceptional destructive power. Built with SS307 stainless steel, it ensures unmatched durability in combat. Planetary DC motors drive the chassis, delivering powerful torque and agile movement. Two 4500mAh 12V batteries provide sustained performance, powering both the drivetrain and weapon system. With its combination of strength, speed, and endurance, this bot is built to dominate the battlefield.",
+      author: "Armaan Guha",
+    },
+    {
+      name: "Chess",
+      tag: "Game Development",
+      img: "/python.png",
+      author: "Raghav Agarwal",
+      link: "https://github.com/InviBull/Chess",
+      description:
+        "The project is a simplified chess game created by a student using Pygame, designed to make the game easier to play for beginners. It features user-friendly controls, clear visual cues, and an intuitive interface. The game aims to teach players the basics of chess while providing an enjoyable and accessible experience. The design focuses on minimizing complex rules and enhancing the learning process for new players.",
     },
     {
       name: "eSpice v14 finals",
@@ -49,6 +63,7 @@ export default function Projects() {
         "eSpice v14 finals was an exciting showcase of programming skills, creativity, and problem-solving. The event brought together some of the brightest minds to tackle challenging problems and compete for the top spot. The contest was held to help students of DPS Noida get inducted into our tech club and get trained in various languages and problem-solving techniques.",
       tag: "Competitive Programming",
       link: "https://www.hackerrank.com/contests/espice-v14-finals/challenges",
+      author: "eSpice Competitive Programming Team",
     },
     {
       name: "Diwaari Eats",
@@ -57,6 +72,7 @@ export default function Projects() {
       description:
         "This project revolves around designing a vibrant restaurant that seamlessly blends modern aesthetics with a touch of quirky charm. The architecture of the space emphasizes a cozy yet dynamic ambiance, featuring warm wooden floors, stylish furniture, and a stage for live performances. The lighting design employs multicolored, glowing table lamps, creating an inviting and energetic atmosphere perfect for social gatherings",
       link: "https://www.behance.net/gallery/205716753/DIWAARI-EATS-CORE-24",
+      author: "Ruhan Kapoor",
     },
   ];
 
@@ -97,6 +113,9 @@ export default function Projects() {
                     </span>
                   </div>
                   <p className="text-gray-700 mb-4">{project.description}</p>
+                  <p className="text-gray-500 mb-4">
+                    Made by : {project.author}
+                  </p>
                   {project.link && (
                     <Link href={project.link}>
                       <p className="text-blue-500 hover:underline">
