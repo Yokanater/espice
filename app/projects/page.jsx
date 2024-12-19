@@ -26,6 +26,7 @@ export default function Projects() {
       name: "Svagram",
       tag: "Web Development",
       img: "/svagram.png",
+      link: "https://github.com/Coder030/Hack_AimSet",
       description:
         "This is 𝑆𝑣𝑎𝑔𝑟𝑎𝑚, a website aptly named `Your Own Village`. 𝑆𝑣𝑎𝑔𝑟𝑎𝑚 serves as a digital hub where users can propose initiatives, garner support through volunteering and upvoting, ultimately fostering a community-driven environment for realising impactful ideas.",
       author: "Kartik Garg",
@@ -73,6 +74,15 @@ export default function Projects() {
         "This project revolves around designing a vibrant restaurant that seamlessly blends modern aesthetics with a touch of quirky charm. The architecture of the space emphasizes a cozy yet dynamic ambiance, featuring warm wooden floors, stylish furniture, and a stage for live performances. The lighting design employs multicolored, glowing table lamps, creating an inviting and energetic atmosphere perfect for social gatherings",
       link: "https://www.behance.net/gallery/205716753/DIWAARI-EATS-CORE-24",
       author: "Ruhan Kapoor",
+    },
+
+    {
+      name: "Among You",
+      tag: "Game Development",
+      img: "/among.png",
+      author: "Raghav Agarwal",
+      description:
+        "`Among You` is a simplified version of the popular game Among Us, created by a student as a personal project. The game focuses on providing an easy-to-understand and streamlined version of the original concept, where players work together to complete tasks on a spaceship, all while trying to identify the `imposter` among them.The project aims to keep the core elements of the game intact but reduces some of the more complex mechanics, making it more accessible and beginner-friendly. With simplified graphics, mechanics, and possibly fewer roles, `Among You` offers a fun and engaging experience for players who enjoy social deduction games but may find the original Among Us a bit overwhelming or complicated.",
     },
   ];
 
