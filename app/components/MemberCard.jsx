@@ -15,8 +15,12 @@ const linkIcons = {
 };
 
 const MemberCard = ({ img, name, tag, isAdmin, links }) => {
+  const cardHeight = name === "Kartik Garg" ? "h-auto min-h-[150px]" : "h-32";
+
   return (
-    <div className="relative bg-white rounded-lg p-6 w-fit min-w-[310px] h-32 w-[70%]">
+    <div
+      className={`relative bg-white rounded-lg p-6 w-fit min-w-[310px] ${cardHeight} w-[70%]`}
+    >
       {img && (
         <div className="absolute top-0 right-0 m-4 flex flex-col items-center">
           <Image
@@ -24,7 +28,7 @@ const MemberCard = ({ img, name, tag, isAdmin, links }) => {
             alt={name}
             width={65}
             height={65}
-            className="rounded-lg max-w-[65px] max-h-[65px] ml-[2 0px]"
+            className="rounded-lg max-w-[65px] max-h-[65px] ml-[20px]"
           />
           {isAdmin && (
             <p className="mt-[7px] font-extrabold text-[rgba(62,133,239,0.95)] text-[18px] tracking-[0.4px] !important">
@@ -37,7 +41,15 @@ const MemberCard = ({ img, name, tag, isAdmin, links }) => {
         <h3 className="text-[18px] sm:text-[20px] font-semibold text-gray-900 mr-[20px]">
           {name}
         </h3>
-        <p className="text-gray-500">{tag}</p>
+        {name === "Kartik Garg" ? (
+          tag.map((line, index) => (
+            <p key={index} className="text-gray-500">
+              {line}
+            </p>
+          ))
+        ) : (
+          <p className="text-gray-500">{tag}</p>
+        )}
         <div className="flex gap-1.5 mt-5 text-[#3E85EF]">
           {links &&
             links.map((link, index) => (

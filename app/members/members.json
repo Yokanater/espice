@@ -4,7 +4,7 @@
     "members": [
       {
         "name": "Arnav Bansal",
-        "tag": "Developer",
+        "tag": "Developer, Core Member",
         "links": [
           {
             "type": "linkedin",
@@ -66,7 +66,7 @@
     "members": [
       {
         "name": "Kartik Garg",
-        "tag": "Web Developer Head",
+        "tag": ["Web Developer Head, ", "Core member"],
         "links": [
           {
             "type": "linkedin",
@@ -144,7 +144,7 @@
       },
       {
         "name": "Manya Goenka",
-        "tag": "Designer",
+        "tag": "Designer, Core Member",
         "isAdmin": true,
         "img": "/ruha.png",
         "links": [
@@ -272,6 +272,22 @@
           {
             "type": "instagram",
             "url": "https://www.instagram.com/ditynfilms/"
+          }
+        ]
+      },
+      {
+        "name": "Shaurya Agarwal",
+        "tag": "Developer, Designer",
+        "isAdmin": false,
+        "img": "/ruha.png",
+        "links": [
+          {
+            "type": "github",
+            "url": "https://github.com/illuminataian"
+          },
+          {
+            "type": "email",
+            "url": "https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=agarwal.shaurya1602@gmail.com"
           }
         ]
       }
