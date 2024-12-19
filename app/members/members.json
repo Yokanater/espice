@@ -145,8 +145,8 @@
       {
         "name": "Manya Goenka",
         "tag": "Designer",
-        "isAdmin": false,
-        "img": "/manya.png",
+        "isAdmin": true,
+        "img": "/ruha.png",
         "links": [
           {
             "url": "https://www.instagram.com/manya.g13",
@@ -178,7 +178,7 @@
       {
         "name": "Yash Tripathi",
         "tag": "Developer",
-        "isAdmin": false,
+        "isAdmin": true,
         "links": [
           {
             "type": "github",
@@ -220,6 +220,26 @@
           {
             "type": "email",
             "url": "https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=devkaran050408@gmail.com"
+          }
+        ]
+      },
+      {
+        "name": "Suhaani Jain",
+        "tag": "Editor",
+        "isAdmin": false,
+        "img": "/ruha.png",
+        "links": [
+          {
+            "type": "instagram",
+            "url": "https://www.instagram.com/suhaanisj/"
+          },
+          {
+            "type": "behance",
+            "url": "https://www.behance.net/suhaaniadobe/"
+          },
+          {
+            "type": "email",
+            "url": "https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=suhaanisj@gmail.com"
           }
         ]
       },
