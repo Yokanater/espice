@@ -18,15 +18,6 @@
     ]
   },
   {
-    "name": "Nishit Jha",
-    "tag": "Class of 2026, Developer",
-    "links": [
-      { "type": "github", "url": "/" },
-      { "type": "linkedin", "url": "/" },
-      { "type": "email", "url": "/" }
-    ]
-  },
-  {
     "name": "Kartik Garg",
     "tag": "Class of 2030, Developer",
     "links": [
@@ -48,9 +39,14 @@
     "name": "Manya Goenka",
     "tag": "Class of 2027, Designer",
     "links": [
-      { "type": "github", "url": "/" },
-      { "type": "instagram", "url": "/" },
-      { "type": "website", "url": "/" }
+      {
+        "url": "https://www.instagram.com/manya.g13",
+        "type": "instagram"
+      },
+      {
+        "url": "https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=manya.goenka@gmail.com",
+        "type": "email"
+      }
     ]
   },
   {
