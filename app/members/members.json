@@ -176,6 +176,26 @@
         "img": "/aryan.png"
       },
       {
+        "name": "Yash Tripathi",
+        "tag": "Developer",
+        "isAdmin": false,
+        "links": [
+          {
+            "type": "github",
+            "url": "https://github.com/yokanater"
+          },
+          {
+            "type": "instagram",
+            "url": "https://www.instagram.com/yokanaterr/"
+          },
+          {
+            "type": "linkedin",
+            "url": "https://www.linkedin.com/in/yash-tripathi-10b750226/"
+          }
+        ],
+        "img": "/yash.png"
+      },
+      {
         "name": "Aanvi Malpani",
         "tag": "Designer",
         "isAdmin": false,
@@ -191,7 +211,7 @@
         "name": "Dev Karan",
         "tag": "Movie Making, Quiz",
         "isAdmin": false,
-        "img": "/dev.png",
+        "img": "/ruha.png",
         "links": [
           {
             "type": "twitter",
