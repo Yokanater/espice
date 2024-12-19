@@ -8,7 +8,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        back: "url('/back.png')", // Update the path to be relative to the public directory
+        back: "url('/back4.png')", // Update the path to be relative to the public directory
       },
       colors: {
         background: "var(--background)",

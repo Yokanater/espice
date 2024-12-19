@@ -108,7 +108,7 @@
     "members": [
       {
         "name": "Shabadneet Singh",
-        "tag": "Editor",
+        "tag": "Editor & Filmmaker",
         "links": [
           {
             "type": "behance",
@@ -126,7 +126,7 @@
         "name": "Armaan Guha",
         "tag": "Robotics",
         "isAdmin": false,
-        "img": "/ruha.png",
+        "img": "/armaan.png",
         "links": [
           {
             "type": "github",

@@ -16,7 +16,11 @@ export default function Navbar() {
     { target: "/", label: "/home", active: pathname === "/" },
     { target: "/members", label: "/members", active: pathname === "/members" },
     { target: "/alumni", label: "/alumni", active: pathname === "/alumni" },
-    { target: "/log", label: "/log", active: pathname === "/log" },
+    {
+      target: "/projects",
+      label: "/projects",
+      active: pathname === "/projects",
+    },
     {
       target: "/resources",
       label: "/resources",

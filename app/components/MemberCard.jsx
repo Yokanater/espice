@@ -31,7 +31,7 @@ const MemberCard = ({ img, name, tag, isAdmin, links }) => {
             className="rounded-lg max-w-[65px] max-h-[65px] ml-[20px]"
           />
           {isAdmin && (
-            <p className="mt-[7px] font-extrabold text-[rgba(62,133,239,0.95)] text-[18px] tracking-[0.4px] !important">
+            <p className="mt-[7px] font-extrabold text-[rgba(62,133,239,0.95)] text-[18px] tracking-[0.4px] !important ml-[15px]">
               ADMIN
             </p>
           )}
