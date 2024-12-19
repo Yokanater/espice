@@ -38,7 +38,7 @@ export default function Projects() {
       tag: "Design",
       img: "/zem.png",
       link: "https://www.behance.net/gallery/211817407/Zemlanite",
-      author: "Ruhan Kapoor",
+      author: "Ruhan Kapoor, Navya Saini, Shinika Dixit",
     },
     {
       name: "Robowar",
@@ -71,9 +71,9 @@ export default function Projects() {
       tag: "Design",
       img: "/design1.png",
       description:
-        "This project revolves around designing a vibrant restaurant that seamlessly blends modern aesthetics with a touch of quirky charm. The architecture of the space emphasizes a cozy yet dynamic ambiance, featuring warm wooden floors, stylish furniture, and a stage for live performances. The lighting design employs multicolored, glowing table lamps, creating an inviting and energetic atmosphere perfect for social gatherings",
+        "Chaar Diwaari’s latest venture, Diwaari Eats, brings an electrifying fusion of desi hip-hop culture and culinary innovation to the Indian dining scene. With a playful, edgy menu and a visually striking ambiance featuring bold lights and chic seating, this restaurant is a sensory feast. From quirky dishes to immersive beats, Diwaari Eats redefines food as art and entertainment, creating a one-of-a-kind experience for foodies and music lovers alike.",
       link: "https://www.behance.net/gallery/205716753/DIWAARI-EATS-CORE-24",
-      author: "Ruhan Kapoor",
+      author: "Ruhan Kapoor, Shabadneet Singh Bhatia, Aanvi Malpani",
     },
 
     {
