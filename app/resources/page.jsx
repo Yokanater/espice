@@ -9,7 +9,7 @@ export default function resources() {
         <p className="text-[24px] sm:text-[30px] font-bold text-[#303030]">
           Resources
         </p>
-        <div className="flex flex-col justify-center items-center absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+        <div className="flex flex-col justify-center items-center relative top-[150px] left-1/2 transform -translate-x-1/2 -translate-y-1/2">
           <img src="/res.png" alt="resources" className="mt-4" />
           <p className="text-[#676767] font-extrabold text-[25px]">
             Coming Soon...
