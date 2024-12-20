@@ -57,6 +57,34 @@
             "type": "email"
           }
         ]
+      },
+      {
+        "name": "Hemang Jha",
+        "isAdmin": false,
+        "tag": "Gaming, Music Making",
+        "img": "/hem.png",
+        "links": [
+          {
+            "type": "instagram",
+            "url": "https://www.instagram.com/hemangjha17/"
+          },
+          {
+            "type": "email",
+            "url": "https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=hemangjha07@gmail.com"
+          }
+        ]
+      },
+      {
+        "name": "Shourya Sharma",
+        "tag": "Movie Making Head",
+        "isAdmin": false,
+        "img": "/shou.png",
+        "links": [
+          {
+            "type": "instagram",
+            "url": "https://www.instagram.com/shouryx.sharma/profilecard/?igsh=MWJ0ZjVzdnl6bXYzNA=="
+          }
+        ]
       }
     ]
   },
