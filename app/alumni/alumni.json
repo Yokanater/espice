@@ -3,48 +3,6 @@
     "class": 2024,
     "members": [
       {
-        "name": "Chirag Bhansali",
-        "tag": "Web Developer",
-        "links": [
-          {
-            "type": "website",
-            "url": "/"
-          },
-          {
-            "type": "email",
-            "url": "/"
-          }
-        ]
-      },
-      {
-        "name": "Raghav Sethi",
-        "tag": "Hardware, App Developer",
-        "links": [
-          {
-            "type": "website",
-            "url": "/"
-          },
-          {
-            "type": "email",
-            "url": "/"
-          }
-        ]
-      },
-      {
-        "name": "Aditya Bhatt",
-        "tag": "Hardware, App Developer",
-        "links": [
-          {
-            "type": "website",
-            "url": "/"
-          },
-          {
-            "type": "email",
-            "url": "/"
-          }
-        ]
-      },
-      {
         "name": "Rushil Rawat",
         "tag": "Quizzer",
         "links": [
@@ -54,37 +12,32 @@
           },
           { "type": "github", "url": "https://github.com/RushR2005" }
         ]
-      }
-    ]
-  },
-  {
-    "class": 2023,
-    "members": [
+      },
       {
-        "name": "Rahul Tandon",
-        "tag": "Web Developer",
-        "links": [
+        "name":"Amish Jain",
+        "tag":"Movie Making",
+        "links":[
           {
-            "type": "website",
-            "url": "/"
-          },
-          {
-            "type": "email",
-            "url": "/"
+            "type":"linkedin",
+            "url":"https://www.linkedin.com/in/amish-jain-134312226?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
           }
         ]
       },
       {
-        "name": "Ravit Gulati",
-        "tag": "Hardware, App Developer",
-        "links": [
+        "name":"Arghya Shubhshiv",
+        "tag":"Developer, Quizzing",
+        "links":[
           {
-            "type": "website",
-            "url": "/"
+            "type":"email",
+            "url":"https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=arghya.shubhshiv.3.14@gmail.com"
           },
           {
-            "type": "email",
-            "url": "/"
+            "type":"github",
+            "url":"https://github.com/ArghyaShubhshiv/"
+          },
+          {
+            "type":"linkedin",
+            "url":"https://www.linkedin.com/in/arghya-shubhshiv-4534a51b3/"
           }
         ]
       }
