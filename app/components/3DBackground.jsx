@@ -96,7 +96,7 @@ export default function Background3D() {
         {[...Array(1)].map((_, i) => (
           <JiggleShape key={"cube" + i} geometry={cube} color="#8aff6b" speed={1.5 + i * 0.4} />
         ))}
-        <JigglyModel path="/donut.glb" scale={2} color="#ff6b6b" speed={4} />
+        <JigglyModel path="/spice.glb" scale={1} color="blue" speed={4} />
         <OrbitControls enableZoom={false} enablePan={false} autoRotate autoRotateSpeed={0.5} />
       </Canvas>
     </div>
