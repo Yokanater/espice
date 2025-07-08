@@ -11,6 +11,7 @@ import { Canvas } from '@react-three/fiber';
 import { OrbitControls } from '@react-three/drei';
 import { Physics, RigidBody, CuboidCollider } from '@react-three/rapier';
 import Background3D from "./components/3DBackground";
+import FluidGlass from "./components/LensFlare";
 
 function Donut() {
   const ref = useRef();
@@ -25,27 +26,21 @@ function Donut() {
   );
 }
 
-function InvisibleWall() {
-  return (  
-    <RigidBody type="fixed" colliders={false}>
-      <CuboidCollider args={[5, 5, 0.1]} position={[0, 0, 0]} />
-    </RigidBody>
-  );
-}
-
 export default function App() {
   return (
     <div style={{ height: "100vh", width: "100vw" }}>
-    {/* <Canvas camera={{ position: [0, 2, 5], fov: 50 }} shadows>
-      <ambientLight intensity={0.5} />
-      <directionalLight position={[5, 5, 5]} castShadow />
-      <Physics gravity={[0, -9.81, 0]}>
-        <Donut />
-        <InvisibleWall />
-      </Physics>
-      <OrbitControls />
-    </Canvas> */}
-    <Background3D/>
+      <div style={{ height: '100vh', position: 'relative', width: '100vw' }}>
+        <FluidGlass 
+          mode="lens" // or "bar", "cube"
+          lensProps={{
+            scale: 0.14,
+            ior: 1.15,
+            thickness: 4,
+            chromaticAberration: 0.01,
+            anisotropy: 0.5  
+          }}
+        />
     </div>
+  </div>
   );
 }

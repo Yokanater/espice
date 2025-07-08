@@ -26,17 +26,18 @@ export default function JigglyModelWhole({ path, scale = 1, speed = 1 }) {
   useFrame((_, delta) => {
     t.current += delta * speed;
 
-    const jiggle = Math.sin(t.current * 3) * 0.05;
+    const jiggle = Math.sin(t.current * 1) * 0.05;
     const squash = 1 - jiggle;
 
-    wrapper.current.scale.set(1 + jiggle, squash, 1 + jiggle);
+    wrapper.current.scale.set(0.4 + jiggle, squash, 1 + jiggle);
     wrapper.current.rotation.y += delta * 0.5;
+    wrapper.current.rotation.z += delta * 0.5;
     wrapper.current.position.y = Math.cos(t.current * 2) * 0.1;
     
   });
 
   return (
-    <group ref={wrapper} scale={scale}>
+    <group ref={wrapper} scale={0.1}>
       <group ref={modelGroup}>
         {scene.children.map((child, i) =>
           child.isMesh ? (
