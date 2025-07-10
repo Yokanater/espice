@@ -12,8 +12,11 @@ import {
   ScrollControls,
   MeshTransmissionMaterial,
   Text,
+  Html,
 } from '@react-three/drei'
 import { easing } from 'maath'
+import MagnetLines from './MagnetLines'
+import { Model } from './Mirchi'
 
 export default function FluidGlass({
   mode = 'lens',
@@ -43,9 +46,12 @@ export default function FluidGlass({
         {mode === 'bar' && <NavItems items={navItems} />}
         <Wrapper modeProps={modeProps}>
           <Scroll>
+            <Model/>
             <Typography />
             <Images />
+             
           </Scroll>
+        
           <Scroll html />
           <Preload />
         </Wrapper>
@@ -98,7 +104,7 @@ const ModeWrapper = memo(function ModeWrapper({
     gl.setRenderTarget(buffer)
     gl.render(scene, camera)
     gl.setRenderTarget(null)
-  
+
     // Background Color
     gl.setClearColor(0xFFFFFF, 1)
   })
@@ -244,7 +250,7 @@ function NavItems({ items }) {
           depthWrite={false}
           outlineWidth={0}
           outlineBlur="20%"
-          
+
           font="/fonts/Inter/static/Inter_18pt-Black.ttf"
           outlineColor="#0000ff"
           outlineOpacity={0.5}
@@ -347,105 +353,105 @@ function Typography() {
 
   return (
     <group ref={group}>
-    <Text
-      position={[0, 0.41, 10]}
-      fontSize={0.5}
-      letterSpacing={-0.04}
-      outlineWidth={0}
-      fillOpacity={0.45}
-      font={"/fonts/Inter/static/Inter_28pt-Bold.ttf"}
-      outlineBlur="0%"
-      outlineColor="#FFFFFF"
-      depthTest={false}
-      depthWrite={false}
-      renderOrder={10}
-      outlineOpacity={0.2}
-      color="#2F82FF"
-      anchorX="center"
-      anchorY="middle"
-      
-    >
-      eSpice
-    </Text>
-    <Text
-      position={[0, 0.22, 11]}
-      fontSize={0.5}
-      letterSpacing={-0.04}
-      outlineWidth={0}
-      fillOpacity={0.7}
-      font={"/fonts/Inter/static/Inter_28pt-Bold.ttf"}
-      outlineBlur="0%"
-      outlineColor="#FFFFFF"
-      depthTest={false}
-      depthWrite={false}
-      renderOrder={10}
-      outlineOpacity={0.2}
-      color="#2F82FF"
-      anchorX="center"
-      anchorY="middle"
-      
-    >
-      eSpice
-    </Text>
-    <Text
-      position={[0, -0.41, 10]}
-      fontSize={0.5}
-      letterSpacing={-0.04}
-      outlineWidth={0}
-      fillOpacity={0.45}
-      font={"/fonts/Inter/static/Inter_28pt-Bold.ttf"}
-      outlineBlur="0%"
-      outlineColor="#FFFFFF"
-      depthTest={false}
-      depthWrite={false}
-      renderOrder={10}
-      outlineOpacity={0.2}
-      color="#2F82FF"
-      anchorX="center"
-      anchorY="middle"
-      
-    >
-      eSpice
-    </Text>
-    <Text
-      position={[0, -0.22, 11]}
-      fontSize={0.5}
-      letterSpacing={-0.04}
-      outlineWidth={0}
-      fillOpacity={0.7}
-      font={"/fonts/Inter/static/Inter_28pt-Bold.ttf"}
-      outlineBlur="0%"
-      outlineColor="#FFFFFF"
-      depthTest={false}
-      depthWrite={false}
-      renderOrder={10}
-      outlineOpacity={0.2}
-      color="#2F82FF"
-      anchorX="center"
-      anchorY="middle"
-      
-    >
-      eSpice
-    </Text>
-    <Text
-      position={[0, 0, 12]}
-      fontSize={0.5}
-      letterSpacing={-0.04}
-      outlineWidth={0}
-      font={"/fonts/Inter/static/Inter_28pt-Bold.ttf"}
-      outlineBlur="0%"
-      outlineColor="#FFFFFF"
-      depthTest={false}
-      depthWrite={false}
-      renderOrder={10}
-      outlineOpacity={0.2}
-      color="#2F82FF"
-      anchorX="center"
-      anchorY="middle"
-      
-    >
-      eSpice
-    </Text>
+      <Text
+        position={[0, 0.41, 10]}
+        fontSize={0.5}
+        letterSpacing={-0.04}
+        outlineWidth={0}
+        fillOpacity={0.45}
+        font={"/fonts/Inter/static/Inter_28pt-Bold.ttf"}
+        outlineBlur="0%"
+        outlineColor="#FFFFFF"
+        depthTest={false}
+        depthWrite={false}
+        renderOrder={10}
+        outlineOpacity={0.2}
+        color="#2F82FF"
+        anchorX="center"
+        anchorY="middle"
+
+      >
+        eSpice
+      </Text>
+      <Text
+        position={[0, 0.22, 11]}
+        fontSize={0.5}
+        letterSpacing={-0.04}
+        outlineWidth={0}
+        fillOpacity={0.7}
+        font={"/fonts/Inter/static/Inter_28pt-Bold.ttf"}
+        outlineBlur="0%"
+        outlineColor="#FFFFFF"
+        depthTest={false}
+        depthWrite={false}
+        renderOrder={10}
+        outlineOpacity={0.2}
+        color="#2F82FF"
+        anchorX="center"
+        anchorY="middle"
+
+      >
+        eSpice
+      </Text>
+      <Text
+        position={[0, -0.41, 10]}
+        fontSize={0.5}
+        letterSpacing={-0.04}
+        outlineWidth={0}
+        fillOpacity={0.45}
+        font={"/fonts/Inter/static/Inter_28pt-Bold.ttf"}
+        outlineBlur="0%"
+        outlineColor="#FFFFFF"
+        depthTest={false}
+        depthWrite={false}
+        renderOrder={10}
+        outlineOpacity={0.2}
+        color="#2F82FF"
+        anchorX="center"
+        anchorY="middle"
+
+      >
+        eSpice
+      </Text>
+      <Text
+        position={[0, -0.22, 11]}
+        fontSize={0.5}
+        letterSpacing={-0.04}
+        outlineWidth={0}
+        fillOpacity={0.7}
+        font={"/fonts/Inter/static/Inter_28pt-Bold.ttf"}
+        outlineBlur="0%"
+        outlineColor="#FFFFFF"
+        depthTest={false}
+        depthWrite={false}
+        renderOrder={10}
+        outlineOpacity={0.2}
+        color="#2F82FF"
+        anchorX="center"
+        anchorY="middle"
+
+      >
+        eSpice
+      </Text>
+      <Text
+        position={[0, 0, 12]}
+        fontSize={0.5}
+        letterSpacing={-0.04}
+        outlineWidth={0}
+        font={"/fonts/Inter/static/Inter_28pt-Bold.ttf"}
+        outlineBlur="0%"
+        outlineColor="#FFFFFF"
+        depthTest={false}
+        depthWrite={false}
+        renderOrder={10}
+        outlineOpacity={0.2}
+        color="#2F82FF"
+        anchorX="center"
+        anchorY="middle"
+
+      >
+        eSpice
+      </Text>
     </group>
   )
 }

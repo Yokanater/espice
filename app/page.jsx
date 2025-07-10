@@ -12,6 +12,7 @@ import { OrbitControls } from '@react-three/drei';
 import { Physics, RigidBody, CuboidCollider } from '@react-three/rapier';
 import Background3D from "./components/3DBackground";
 import FluidGlass from "./components/LensFlare";
+import MagnetLines from "./components/MagnetLines";
 
 function Donut() {
   const ref = useRef();
@@ -40,6 +41,7 @@ export default function App() {
             anisotropy: 0.5  
           }}
         />
+        <MagnetLines />
     </div>
   </div>
   );
